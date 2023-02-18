@@ -1,0 +1,19 @@
+import math
+x_in_degrees = input("Enter your angle in degrees: ")
+x = float(x_in_degrees) * 2 * math.pi / 360
+print("Your angle in radians is: ", x)
+
+fnctn = input("Choose the operation you want to do, sin, cos or sincos to find bots sin and cos": )
+if fnctn == "sin"
+    sinx = float(x) - (pow(float(x), 3)) / 6 + (pow(float(x), 5)) / 120 - (pow(float(x), 7)) / 5040
+    print("sin x = ", sinx)
+
+if fnctn == "cos"
+    cosx = 1 - (pow(float(x), 2)) / 2 + (pow(float(x), 4)) / 24 - (pow(float(x), 6)) / 720
+    print("cos x = ", cosx)
+
+if fnctn == "sincos"
+    sinx = float(x) - (pow(float(x), 3)) / 6 + (pow(float(x), 5)) / 120 - (pow(float(x), 7)) / 5040
+    print("sin x = ", sinx)
+    cosx = 1 - (pow(float(x), 2)) / 2 + (pow(float(x), 4)) / 24 - (pow(float(x), 6)) / 720
+    print("cos x = ", cosx)
